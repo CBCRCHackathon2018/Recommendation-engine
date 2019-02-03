@@ -4,6 +4,7 @@ import json
 from pprint import pprint
 from random import randint
 
+from SmartParser import SmartParser
 from SearchPhotos import PhotoSearch
 
 app = Flask(__name__)
@@ -38,13 +39,14 @@ def get_user_keywords(userId):
     return "canada radio"
 
 def get_show_keywords(description):
-    return "technology"
+    sp = SmartParser()
+    sp.SetText(description)
+    return sp.NounChunks()
 
 def get_show_image(showKeywords, userKeywords):
     pexels = PhotoSearch()
-    keywords = showKeywords + ' ' + userKeywords
-    keyword_arr = keywords.split(' ')
-    response = pexels.MakeRequest(keyword_arr)
+    keywords = showKeywords + userKeywords.split(' ')
+    response = pexels.MakeRequest(keywords)
     number_of_photos = len(response['photos'])
-    picture = response['photos'][randint(0, number_of_photos - 1)]['src']['original']
+    picture = response['photos'][randint(0, number_of_photos - 1)]['src']['medium']
     return picture
