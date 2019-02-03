@@ -2,6 +2,7 @@ from flask import Flask
 from flask import jsonify
 import json
 from pprint import pprint
+from random import randint
 
 from SmartParser import SmartParser
 from SearchPhotos import PhotoSearch
@@ -39,13 +40,12 @@ def get_user_keywords(userId):
 
 def get_show_keywords(description):
     return "technology"
-    #sp = SmartParser(description)
-    #return sp.NounChunks()
 
 def get_show_image(showKeywords, userKeywords):
     pexels = PhotoSearch()
     keywords = showKeywords + ' ' + userKeywords
     keyword_arr = keywords.split(' ')
-    print(keyword_arr)
     response = pexels.MakeRequest(keyword_arr)
-    return response['photos'][0]['src']['original']
+    number_of_photos = len(response['photos'])
+    picture = response['photos'][randint(0, number_of_photos - 1)]['src']['original']
+    return picture
