@@ -1,0 +1,73 @@
+[
+    {
+      "id": 60,
+      "title": "The 180",
+      "description": "The 180 is a show that's meant to get Canadians talking about what's going on in our country. Our playground? The issues that matter most to you wherever you live, coast to coast. Big city or small suburb, we'll bring you stories and points of view that get you going, and give you ways to get in on the debate. We want to start a national conversation, with you at the centre. ",
+      "image": "https://www.cbc.ca/radio/podcasts/images/950x950/the180-podcast-template.jpg",
+      "webUrl": "http://www.cbc.ca/the180/"
+    },
+    {
+      "id": 156,
+      "title": "2050: Degrees of Change",
+      "description": "CBC Meteorologist Johanna Wagstaffe guides a journey to our future in a CBC Vancouver original podcast  that explores how our world and lives will adapt to climate change within a few decades.",
+      "image": "https://www.cbc.ca/radio/podcasts/images/950x950/2050degreesofchange-podcast-template.jpg",
+      "webUrl": "https://www.cbc.ca/news/canada/british-columbia/events/2050degreesofchange-1.4135842"
+    },
+    {
+      "id": 80,
+      "title": "Afternoon Drive",
+      "description": "From the backroads of the counties to the urban centres of the southwest, Afternoon Drive brings you the stories in and about southwest Ontario. Mix in music from artists throughout the region, traffic and weather, and you’ve got two hours of radio that gets you talking and puts you in the know about all things southwest Ontario.",
+      "image": "https://www.cbc.ca/radio/podcasts/images/950x950/afternoondrive-windsor-podcast-template.jpg",
+      "webUrl": "https://www.cbc.ca/listen/shows/afternoon-drive"
+    },
+    {
+      "id": 81,
+      "title": "Airplay",
+      "description": "Airplay is an energetic, irreverent mix of information, music and humour. Each day the shows informs Yukoners what’s happening around the territory and brings them up to date on local, regional and national news and events. It’s an open mic for Yukoners to talk about what’s important to them.",
+      "image": "https://www.cbc.ca/radio/podcasts/images/950x950/airplay-podcast-template.jpg",
+      "webUrl": "https://www.facebook.com/cbcyukon/"
+    },
+    {
+      "id": 1,
+      "title": "Alberta at Noon",
+      "description": "If you're talking about it, so is Judy Aldous on Alberta's only province wide open line. Smart, approachable, fair  - Judy will give you a chance to have your say on the hot topics of the day. From strong opinions, to thoughtful arguments, to stories worth repeating - you never know what you'll hear next. Contact us at 1-866-468-4422, albertaatnoon@cbc.ca, or @albertaatnoon",
+      "image": "https://www.cbc.ca/radio/podcasts/images/950x950/albertaatnoon-podcast-template.jpg",
+      "webUrl": "https://www.cbc.ca/albertaatnoon/"
+    },
+    {
+      "id": 92,
+      "title": "All in a Day",
+      "description": "CBC Radio's All In A Day is Ottawa's number one afternoon drive program. Alan Neal and the All In A Day team offer compelling local stories, as well as regional, national and international reports.",
+      "image": "https://www.cbc.ca/radio/podcasts/images/950x950/allinaday-podcast-template.jpg",
+      "webUrl": "https://www.cbc.ca/news/canada/ottawa/all-in-a-day-program-page-1.3665430"
+    },
+    {
+      "id": 78,
+      "title": "All in a Weekend Montreal",
+      "description": "Wake up to music and conversation about the people, events, activities and ideas that fill a weekend — and make up a life in Quebec. Join host Sonali Karnick on Saturday and Sunday mornings from 6 to 9 a.m. ",
+      "image": "https://www.cbc.ca/radio/podcasts/images/950x950/allinaweekend-montreal-podcast-template.jpg",
+      "webUrl": "https://www.cbc.ca/news/canada/montreal/cbc-quebec-all-in-a-weekend-introduction-1.3774860"
+    },
+    {
+      "id": 93,
+      "title": "All Points West",
+      "description": "'All Points West' is the place where people from Victoria and Vancouver Island gather to catch up on the day's news, meet some new and interesting people and get a few picks for the evening's entertainment. It's where you can depend on getting the information you need - weather, traffic and ferries - to plan the rest of your day. Our host brings Victorians and Islanders, smart conversation, stories to think about and music worth listening to.",
+      "image": "https://www.cbc.ca/radio/podcasts/images/950x950/allpointswest-podcast-template.jpg",
+      "webUrl": "http://www.cbc.ca/allpointswest/"
+    },
+    {
+      "id": 164,
+      "title": "Alone: A Love Story",
+      "description": "Alone: A Love Story, is a memoir about love, the bomb, and the fallout. With raw honesty, Michelle Parise takes you along on her winding journey from lust to heartbreak, through loneliness and despair ...",
+      "image": "https://www.cbc.ca/radio/podcasts/images/950x950/alone-podcast-template.jpg",
+      "webUrl": "https://www.cbc.ca/radio/alone"
+    },
+    {
+      "id": 173,
+      "title": "Ambushed",
+      "description": "A well-liked couple - an RCMP officer and a kindergarten teacher - are gunned down in a small, Alberta town. Twenty years later, the mystery still lingers. Who killed Lorraine McNab and Peter Sopow? A six part podcast investigates, hearing from cops who worked the case, and family who harbour their own suspicions.",
+      "image": "https://www.cbc.ca/radio/podcasts/images/950x950/ambushed-podcast-template.jpg",
+      "webUrl": "http://www.cbc.ca/radio"
+    }
+  ]
+  
