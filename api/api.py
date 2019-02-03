@@ -22,7 +22,6 @@ def get_shows(userId):
 
         for d in data:
             show_keywords = get_show_keywords(d["description"].split('.')[0])
-            print(show_keywords)
             d["image"] = get_show_image(show_keywords, user_keywords)
 
     return jsonify(data)
@@ -39,8 +38,14 @@ def get_user_keywords(userId):
     return "canada radio"
 
 def get_show_keywords(description):
-    sp = SmartParser(description)
-    return sp.NounChunks()
+    return "technology"
+    #sp = SmartParser(description)
+    #return sp.NounChunks()
 
 def get_show_image(showKeywords, userKeywords):
-    return "https://www.cbc.ca/radio/podcasts/images/950x950/the180-podcast-template.jpg"
+    pexels = PhotoSearch()
+    keywords = showKeywords + ' ' + userKeywords
+    keyword_arr = keywords.split(' ')
+    print(keyword_arr)
+    response = pexels.MakeRequest(keyword_arr)
+    return response['photos'][0]['src']['original']
