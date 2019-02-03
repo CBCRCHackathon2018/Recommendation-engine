@@ -1,2 +1,4 @@
 .vscode
 NLPEngine/__pycache__
+PhotoSearchEngine/__pycache__
+PhotoSearchEngine/PexelsAPI.py
