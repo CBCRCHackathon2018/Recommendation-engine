@@ -4,7 +4,6 @@ import json
 from pprint import pprint
 from random import randint
 
-from SmartParser import SmartParser
 from SearchPhotos import PhotoSearch
 
 app = Flask(__name__)
