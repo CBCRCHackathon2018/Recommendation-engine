@@ -1,4 +1,5 @@
 from SearchPhotos import PhotoSearch
 
-pexels = PhotoSearch()
-pexels.MakeRequest(["Police", "politics"])
+def SearchPhotos(textArray):
+    pexels = PhotoSearch()
+    pexels.MakeRequest(textArray)
